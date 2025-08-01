@@ -10,7 +10,7 @@ Dev: Er4vn | Telegram: @er4vnn
 ---
 
 ## ⚔️ Key Features
-
+- Upcoming features will be introduced in the next update
 - 🔍 2FA & Session Enumeration  
 - 🧬 Token Extraction & Session Hijacking Simulation  
 - 🧿 Automated Social Engineering Flows  

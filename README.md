@@ -1,11 +1,9 @@
 # 🛰️ TeleStrike – Telegram Account Penetration Toolkit
 
+<img width="1983" height="793" alt="ChatGPT Image Jul 19, 2026, 03_29_22 AM" src="https://github.com/user-attachments/assets/fb7ba3f7-7251-4885-bccd-9b65a9a4d55d" />
+
 **TeleStrike** is a red team utility designed for adversary simulation and security auditing of Telegram accounts.  
 Built for **educational** and **authorized assessment** purposes, it mimics real-world attack vectors to test resilience and response mechanisms in Telegram’s authentication layers.
-
-Dev: Er4vn | Telegram: @er4vnn
-
-<img width="1897" height="936" alt="Screenshot 2025-08-01 195442" src="https://github.com/user-attachments/assets/80329a56-2aa4-44ec-909b-41ab7b129220" />
 
 ---
 
@@ -23,49 +21,122 @@ Dev: Er4vn | Telegram: @er4vnn
 1. Upload the `source_code` folder to your web server or hosting panel (e.g. VPS, cPanel, Localhost).
 2. On your attacker machine, run the Python listener:
 
-#### ✅ Requirements
-- Python 3 installed
+## ✅ Requirements
+
+Before running **TeleStrike**, ensure the following requirements are met:
+
+- Python **3.10** or newer
 - Internet connection
-- Basic terminal knowledge
+- Terminal or Command Prompt access
+- Git *(optional, for cloning the repository)*
 
 ---
 
-#### 🖥️ Run on Windows:
+# 🪟 Windows
 
-1. Open CMD or PowerShell
-2. Navigate to the script directory
-cd path\to\your\script
+### 1. Open **Command Prompt** or **PowerShell**
 
-3. Run the script
+Navigate to the project directory:
+
+```bash
+cd C:\path\to\TeleStrike
+```
+
+Run the application:
+
+```bash
 python TeleStrike.py
+```
+
+If `python` is not recognized, try:
+
+```bash
+py TeleStrike.py
+```
 
 ---
 
-#### 🖥️ Run on Linux:
+# 🐧 Linux
 
-1. Open your terminal
-2. Navigate to the script directory
-cd /path/to/your/script
+Open your terminal and navigate to the project directory:
 
-3. Run the script
+```bash
+cd /path/to/TeleStrike
+```
+
+Run:
+
+```bash
 python3 TeleStrike.py
+```
 
 ---
 
-#### 📱 Run on Termux (Android):
+# 🍏 macOS
 
-1. Open Termux
-2. Install Python if not already installed
-pkg install python
+Open **Terminal** and navigate to the project directory:
 
-3. Navigate to your script directory
-cd /path/to/your/script
+```bash
+cd /path/to/TeleStrike
+```
 
-4. Run the script
+Run:
+
+```bash
 python3 TeleStrike.py
+```
 
-   ```bash
-   python3 TeleStrike.py
+---
+
+# 📱 Termux (Android)
+
+### Update packages
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+### Install Python
+
+```bash
+pkg install python -y
+```
+
+### Navigate to the project directory
+
+```bash
+cd /path/to/TeleStrike
+```
+
+### Run the application
+
+```bash
+python3 TeleStrike.py
+```
+
+---
+
+## 🚀 Verify Python Installation
+
+Windows:
+
+```bash
+python --version
+```
+
+or
+
+```bash
+py --version
+```
+
+Linux / macOS / Termux:
+
+```bash
+python3 --version
+```
+
+If the version is displayed successfully, you're ready to run **TeleStrike**.
    
 <img width="1034" height="590" alt="Screenshot 2025-08-01 200809" src="https://github.com/user-attachments/assets/6f48c5ed-b0f7-4af6-b934-8b1f50bd58db" />
 

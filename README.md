@@ -5,6 +5,22 @@
 **TeleStrike** is a red team utility designed for adversary simulation and security auditing of Telegram accounts.  
 Built for **educational** and **authorized assessment** purposes, it mimics real-world attack vectors to test resilience and response mechanisms in Telegram’s authentication layers.
 
+# 🚀 Full Version Available
+
+> **This repository contains a simplified version.**
+>
+> ### ⭐ Main Project
+>
+> #### ➜ https://github.com/er4vn/Orbital
+>
+> The main repository includes:
+>
+> - Latest Features
+> - Continuous Updates
+> - Better Performance
+> - More Modules
+> - Full Documentation
+
 ---
 
 ## ⚔️ Key Features
